@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEYGAMER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="D:\Tarea talento tech\css\HollowKnigh.css">
+<style>
+            .navbar {   
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+    
+            .navbar .nav-link,
+            .navbar .navbar-brand {
+                color: black;
+            }
+    
+            body {
+                padding-top: 70px; 
+            }
+    
+            .container-fluid {
+                max-width: 1200px; 
+                margin: 0 auto; 
+            }
+</style>
+</head>
+
+<body>
+    <!-- encabezado principal -->
+    <div class="DivBody">
+        <!-- Barra de navegación -->
+        <header class="NavInic">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="indexinicial.html">
+                        <img src="D:\Tarea talento tech\img\leygamer.png" alt="logo" class="imgLogo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="indexinicial.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <!-- nose que poner en esos links (href) pido disculpas -->
+                                <a class="nav-link" href="no hay ">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Cosas para accionar
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">acción</a></li>
+                                    <li><a class="dropdown-item" href="#">otras acciones</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">una accion nada que ver</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success search-btn" type="submit">buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <header>
+                <h1>Guia rapida de Como Inicar en Hollow Knight</h1>
+                <h2 class="HTitle">Con está guia veremos cosas basicas del juego y como seguir avanzando </h2>
+                <img class="ImgHollowKnigh" src="D:\Tarea talento tech\img\HollowKnigh.jpg" alt="Hollow Knigh imgaen">
+        </header>
+        <!-- contenido principal -->
+        <main class="ContenidoMain">
+            <!-- Indice -->
+            <div class="indice_reportaje">
+                <div class="indice_intro">
+                    <b>Índice</b>
+                </div>
+                <article>
+                <section>
+                    <div class="indicecontenido">
+                        <div class="item_indice">1. <a href="#mundo">Comprende el mundo de Hollow Knight</a></div>
+                        <div class="item_indice">2. <a href="#controles">Controles básicos y movimiento</a></div>
+                        <div class="item_indice">3. <a href="#cruz_caminante">Comienza en Cruz del Caminante</a></div>
+                        <div class="item_indice">4. <a href="#mapa">Compra un mapa y actualizaciones</a></div>
+                        <div class="item_indice">5. <a href="#explora_cruz">Explora Cruz del Caminante</a></div>
+                        <div class="item_indice">6. <a href="#habilidades">Habilidades iniciales</a></div>
+                        <div class="item_indice">7. <a href="#amuletos">Administración de amuletos</a></div>
+                        <div class="item_indice">8. <a href="#bocasucia">Explora y regresa a Bocasucia</a></div>
+                        <div class="item_indice">9. <a href="#zonas_desafiantes">Prepárate para zonas desafiantes</a></div>
+                        <div class="item_indice">10. <a href="#paciencia">Ten paciencia y experimenta</a></div>        
+                    </div>
+                </div>
+                </article>
+                <article>
+                    <section>
+                        <div>
+                            <p class="texInicial">
+                                Hollow Knight es un juego de acción y aventura tipo Metroidvania, donde exploras un reino subterráneo llamado Hallownest, lleno de misterios y criaturas. Controlas al Caballero, enfrentando desafiantes enemigos, desbloqueando habilidades y descubriendo secretos mientras te sumerges en su atmósfera sombría y cautivadora.
+                            </p>
+                        </div>
+                    </section>
+                    <div class="contenido_reportaje">
+                        <section >
+                            <h3 id="mundo">Comprende el mundo de Hollow Knight</h3>
+                            <ul>
+                                <li>El juego es un <span>Metroidvania</span>, lo que significa que deberás explorar, desbloquear habilidades y regresar a áreas anteriores para descubrir secretos.</li>
+                                <li>Tómate tu tiempo para absorber la atmósfera y no te preocupes si al principio te pierdes: es parte del encanto.</li>
+                            </ul>
+                        </section>
+                        <section id="controles">
+                            <h3 id="controles">Controles básicos y movimiento</h3>
+                            <ul>
+                                <li>Familiarízate con el salto, el ataque y el movimiento. Estos serán esenciales para el combate y la exploración.</li>
+                                <li>Aprende a usar el <span>Soul</span> (la barra de energía blanca): puedes recolectarlo atacando enemigos y usarlo para curarte o lanzar hechizos más adelante.</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3 id="cruz_caminante">Comienza en Cruz del Caminante</h3>
+                            <ul>
+                                <li>Esta área inicial te introduce a los conceptos básicos del juego. Habla con Elderbug cerca del banco al principio; te dará un poco de contexto y te animará a explorar.</li>
+                                <li>Reúne geo (la moneda del juego) eliminando enemigos y rompiendo estatuas de geo.</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3 id="mapa">Compra un mapa y actualizaciones</h3>
+                            <ul>
+                                <li>Encuentra a Cornifer, el cartógrafo. Escucha su silbido característico; te venderá un mapa del área.</li>
+                                <li>Ve a la tienda de su esposa, Iselda, en el pueblo de Bocasucia y compra actualizaciones como la brújula (te muestra tu posición en el mapa) y marcadores para áreas importantes.</li>
+                            </ul>
+                        </section>
+                        <section >
+                            <h3 id="explora_cruz">Explora Cuenca Antigua</h3>
+                            <ul>
+                                <li>Recolecta geo y encuentra un banco (lugares donde puedes guardar tu progreso).</li>
+                                <li>Busca a los enemigos más débiles para practicar el combate, como los <span>Crawleders</span> y <span>Vengeflies.</span></li>
+                                <li>Encuentra el primer jefe: <span>False Knight.</span> Aprende su patrón de ataque, evita sus golpes y usa las oportunidades para atacar. Al derrotarlo, obtendrás acceso a nuevas áreas.</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3 id="habilidades">Habilidades iniciales</h3>
+                            <ul>
+                                <li>Encuentra el hechizo Venganza del alma: te permite disparar proyectiles. Es útil para enemigos a distancia y para romper barreras en ciertas áreas.</li>
+                                <li>Desbloquea el Manto de polilla (doble salto) lo antes posible; te permitirá alcanzar lugares inaccesibles.</li>
+                            </ul>
+                        </section>
+                
+                        <section >
+                            <h3 id="amuletos">Administración de amuletos</h3>
+                            <ul>
+                                <li>Recoge amuletos (objetos que otorgan habilidades especiales) en tu camino. Algunos útiles al inicio son:
+                                    <ul class="SubLista">
+                                        <li><b>Corazón Frágil:</b> aumenta tu salud.</li>
+                                        <li><b>Brújula caprichosa:</b> esencial para orientarte en el mapa.</li>
+                                        <li><b>Atrapaalmas:</b> te da más Soul al atacar enemigos</li>
+                                    </ul>
+                                </li>
+                                <li>Ve experimentando con combinaciones según tu estilo de juego.</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3 id="bocasucia">Explora y regresa a Bocasucia</h3>
+                            <ul>
+                                <li>Vuelve regularmente al pueblo para comprar mejoras con el geo acumulado.</li>
+                                <li>Amplía tu inventario con objetos como más espacios para amuletos o mejoras para tu Soul.</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3 id="zonas_desafiantes">Prepárate para zonas desafiantes</h3>
+                            <ul>
+                                <li>Después de Cruces Olvidados, dirígete a áreas como:
+                                    <ul class="SubLista">
+                                        <li><span>Sendero Verde:</span> Rica en secretos y enemigos rápidos, pero de nivel moderado.</li>
+                                        <li><span>Cañón Nublado:</span>Aquí encontrarás nuevas habilidades mágicas y desafíos.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                
+                        <section>
+                            <h3 id="paciencia">Ten paciencia y experimenta</h3>
+                            <ul>
+                                <li><span>Hollow Knight</span> puede ser difícil, pero cada derrota es una lección.</li>
+                                <li>Marca áreas inalcanzables para regresar más adelante con nuevas habilidades.</li>
+                            </ul>
+                        </section>
+                    </div>
+            </article>
+        </main>
+    </div>
+    <div class="lineaBlue"> </div>
+            <!-- pie de pagina -->
+            <footer id="footer">
+                <div class="footerDos">
+                    <div class="contener">
+                        <!-- Sección de redes sociales -->
+                        <div class="nose">
+                            <div class="RedSocial">
+                                <div class="Tit">SÍGUENOS</div>
+                                <div class="ImgSocial">
+                                    <a href="#" title="Facebook">
+                                        <img src="D:\Tarea talento tech\img\fblogo.png" alt="Facebook" width="40">
+                                    </a>
+                                    <a href="#" title="Twitter">
+                                        <img src="D:\Tarea talento tech\img\xblanco5.png" alt="Twitter" width="40">
+                                    </a>
+                                    <a href="#" title="Instagram">
+                                        <img src="D:\Tarea talento tech\img\instagramlogo.png" alt="Instagram" width="40">
+                                    </a>
+                                    <a href="#" title="YouTube">
+                                        <img src="D:\Tarea talento tech\img\youtubelogo.png" alt="YouTube" width="40">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Enlaces importantes -->
+                            <div class="links">
+                                <div class="Tit">ENLACES</div>
+                                <ul class="footerlinks">
+                                    <li><a href="#">Contacto</a></li>
+                                    <li><a href="#">Soporte</a></li>
+                                    <li><a href="#">Términos de uso</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerTres">
+                    <div class="Copi">
+                        © Tu Sitio 2024 - Todos los derechos reservados.
+                    </div>
+                </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+            
+</body>
+</html>
